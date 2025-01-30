@@ -182,9 +182,59 @@
 
 /* Appliquer l’animation à la modale */
 .modal-content {
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  padding-top: 50px; /* Décale tout le contenu */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligne le contenu en haut */
+
+  
   animation: fadeIn 0.3s ease-out;
 }
 
+.modal-content img {
+  max-width: 100%; /* L'image ne dépassera jamais la largeur de la modale */
+  max-height: 40vh; /* L'image ne prendra pas plus de 40% de la hauteur de l'écran */
+  object-fit: contain; /* Assure que l'image garde ses proportions */
+  display: block;
+  margin: 0 auto; /* Centre l'image horizontalement */
+}
+
+
 .modal-overlay {
+  display: flex;
+  align-items: center; /* Centre verticalement */
+  justify-content: center; /* Centre horizontalement */
+  overflow: hidden; /* Empêche tout débordement */
+
+
+
   animation: fadeIn 0.3s ease-out;
+}
+
+.json-container {
+  color: rgb(208, 45, 45); /* Assure que le texte est bien visible */
+  background-color: rgb(66, 62, 62); /* Ajoute un fond si nécessaire */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+[data-theme="dark"] .modal-content {
+  background: #222 !important; /* Gris foncé */
+  color: white !important; /* Texte blanc pour le contraste */
+}
+
+[data-theme="light"] .modal-content {
+  background: white !important; /* Fond blanc en mode clair */
+  color: black !important;
+}
+
+[data-theme="dark"] .modal-description {
+  color: white !important; /* Forcer le texte en blanc */
+}
+
+[data-theme="light"] .modal-description {
+  color: black !important; /* Conserver le texte noir en mode clair */
 }

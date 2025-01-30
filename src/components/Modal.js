@@ -12,8 +12,14 @@ const Modal = ({ isOpen, onClose, project }) => {
         <button className="modal-close" onClick={onClose}>X</button>
         <img src={project.img} alt="Project" className="modal-image" />
         <p className="modal-description">
-          <strong>Test Description:</strong> {project && project.description ? project.description : "Pas de description disponible"}
+          <strong>Description:</strong> {project?.description || "Pas de description disponible"}
         </p>
+        <p><strong>Contexte:</strong> {project?.Contexte || "Non spécifié"}</p>
+        <p><strong>Architecture:</strong> {project?.Architecture || "Non spécifié"}</p>
+        <p><strong>Implementation:</strong> {project?.Implementation || "Non spécifié"}</p>
+        <p><strong>Challenges:</strong> {project?.Challenges || "Non spécifié"}</p>
+        <p><strong>Défis:</strong> {project?.Défis || "Non spécifié"}</p>
+        <p><strong>Déploiement:</strong> {project?.Déploiement || "Non spécifié"}</p>
         <a href={project.link} className="modal-link" target="_blank" rel="noopener noreferrer">
           Voir le projet
         </a>

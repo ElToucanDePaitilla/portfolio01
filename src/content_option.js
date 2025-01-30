@@ -154,31 +154,67 @@ const dataportfolio = [{
         img: require("./assets/images/Photo-MVG.png"),
         description: "Mon Vieux Grimoire: développement from scratch du backend d'un site de notation de livres.",
         link: "https://www.free.fr/freebox/",
+        Contexte: "Développement du back-end pour une plateforme de notation de livres, collaboration avec un développeur front-end (React), respect des bonnes pratiques de développement et du Green Code.",
+        Architecture: "Node.js & Express.js : Mise en place du serveur; MongoDB & Mongoose : Stockage et gestion des données, Architecture MVC : Organisation du code en modèles, vues et contrôleurs, API RESTful : Conception d’une API structurée pour le front-end.",
+        Implementation: "Qui regis membra alium flagitaret.",
+        Challenges: "Qui regis membra alium flagitaret.",
+        Défis: "Qui regis membra alium flagitaret.",
+        Déploiement: "Qui regis membra alium flagitaret."
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
         description: "Kasa: The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
+        Contexte: "Qui regis membra alium flagitaret.",
+        Architecture: "Qui regis membra alium flagitaret.",
+        Implementation: "Qui regis membra alium flagitaret.",
+        Challenges: "Qui regis membra alium flagitaret.",
+        Défis: "Qui regis membra alium flagitaret.",
+        Déploiement: "Qui regis membra alium flagitaret."
     },
     {
         img: "https://picsum.photos/400/?grayscale",
         description: "Nina Carducci: The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
+        Contexte: "Qui regis membra alium flagitaret.",
+        Architecture: "Qui regis membra alium flagitaret.",
+        Implementation: "Qui regis membra alium flagitaret.",
+        Challenges: "Qui regis membra alium flagitaret.",
+        Défis: "Qui regis membra alium flagitaret.",
+        Déploiement: "Qui regis membra alium flagitaret."
     },
     {
         img: "https://picsum.photos/400/600/?grayscale",
         description: "Sophie Bluel: The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
+        Contexte: "Qui regis membra alium flagitaret.",
+        Architecture: "Qui regis membra alium flagitaret.",
+        Implementation: "Qui regis membra alium flagitaret.",
+        Challenges: "Qui regis membra alium flagitaret.",
+        Défis: "Qui regis membra alium flagitaret.",
+        Déploiement: "Qui regis membra alium flagitaret."
     },
     {
         img: "https://picsum.photos/400/300/?grayscale",
         description: "Booki: The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
+        Contexte: "Qui regis membra alium flagitaret.",
+        Architecture: "Qui regis membra alium flagitaret.",
+        Implementation: "Qui regis membra alium flagitaret.",
+        Challenges: "Qui regis membra alium flagitaret.",
+        Défis: "Qui regis membra alium flagitaret.",
+        Déploiement: "Qui regis membra alium flagitaret."
     },
     {
         img: "https://picsum.photos/400/600/?grayscale",
         description: "Gestion de projet et système de veille technologique: The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
+        Contexte: "Qui regis membra alium flagitaret.",
+        Architecture: "Qui regis membra alium flagitaret.",
+        Implementation: "Qui regis membra alium flagitaret.",
+        Challenges: "Qui regis membra alium flagitaret.",
+        Défis: "Qui regis membra alium flagitaret.",
+        Déploiement: "Qui regis membra alium flagitaret."
     },  
 ];
 
