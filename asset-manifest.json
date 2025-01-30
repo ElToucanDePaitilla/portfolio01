@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio01/static/css/main.7440fb96.css",
-    "main.js": "/portfolio01/static/js/main.33d1ec0a.js",
+    "main.css": "/portfolio01/static/css/main.4f50797a.css",
+    "main.js": "/portfolio01/static/js/main.a8b53bae.js",
     "static/media/MVG03.png": "/portfolio01/static/media/MVG03.8e8c1f23fc0599db51ad.png",
+    "static/media/NinaCarducci.png": "/portfolio01/static/media/NinaCarducci.5519d10f7387a48cfc96.png",
     "static/media/Photo-MVG.png": "/portfolio01/static/media/Photo-MVG.ed36a3b6cff1d0ba0411.png",
     "index.html": "/portfolio01/index.html"
   },
   "entrypoints": [
-    "static/css/main.7440fb96.css",
-    "static/js/main.33d1ec0a.js"
+    "static/css/main.4f50797a.css",
+    "static/js/main.a8b53bae.js"
   ]
 }
