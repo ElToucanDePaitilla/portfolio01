@@ -147,81 +147,36 @@ const langues = [{
 },
 ];
 
-
-
-
 const dataportfolio = [{
         img: require("./assets/images/Photo-MVG.png"),
-        description: "Mon Vieux Grimoire: développement from scratch du backend d'un site de notation de livres.",
+        Projet: " | Mon Vieux Grimoire.",
+        Description: " | Développement from scratch du backend d'un site de notation de livres. | ",
         link: "https://www.free.fr/freebox/",
-        Contexte: "Développement du back-end pour une plateforme de notation de livres, collaboration avec un développeur front-end (React), respect des bonnes pratiques de développement et du Green Code.",
-        Architecture: "Node.js & Express.js : Mise en place du serveur; MongoDB & Mongoose : Stockage et gestion des données, Architecture MVC : Organisation du code en modèles, vues et contrôleurs, API RESTful : Conception d’une API structurée pour le front-end.",
-        Implementation: "Qui regis membra alium flagitaret.",
-        Challenges: "Qui regis membra alium flagitaret.",
-        Défis: "Qui regis membra alium flagitaret.",
-        Déploiement: "Qui regis membra alium flagitaret."
+        Contexte: " | Développement du back-end pour une plateforme de notation de livres, collaboration avec un développeur front-end (React), respect des bonnes pratiques de développement et du Green Code. | ",
+        Architecture: " | Node.js & Express.js : Mise en place du serveur. | MongoDB & Mongoose : Stockage et gestion des données. | Architecture MVC : Organisation du code en modèles, vues et contrôleurs. | API RESTful : Conception d’une API structurée pour le front-end. | ",
+        Implementation: " | Gestion des Livres et des Notations (CRUD): création, lecture, mise à jour et suppression de livres. | ",
+        Challenges:" | Validation des Notations : vérification pour éviter les doublons par utilisateur. | Connexion Sécurisée à la Base de Données : utilisation de variables d’environnement. | Performance et Scalabilité : optimisation des requêtes et gestion efficace des ressources. | ",
+        Défis: " | Expérience complète en développement back-end. | Mise en œuvre des bonnes pratiques de sécurité et d’optimisation. | Gestion de projet en collaboration avec un développeur front-end. | ",
+        Déploiement: " | Tests des endpoints avec Postman. | Déploiement sur un serveur distant (ex : Heroku, Vercel, …). | "
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "Kasa: The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-        Contexte: "Qui regis membra alium flagitaret.",
-        Architecture: "Qui regis membra alium flagitaret.",
-        Implementation: "Qui regis membra alium flagitaret.",
-        Challenges: "Qui regis membra alium flagitaret.",
-        Défis: "Qui regis membra alium flagitaret.",
-        Déploiement: "Qui regis membra alium flagitaret."
+        img: require("./assets/images/NinaCarducci.png"),
+        Projet: " | Optimisation et Débogage du Site de Nina Carducci. | ",
+        Description: " | Technologies : Lighthouse, GTMetrix, Chrome DevTools, Schema.org, OpenGraph, Twitter Cards. | Compétences : SEO, Accessibilité Web, Optimisation des Performances, Débogage, Analyse. | ",
+        link: "https://eltoucandepaitilla.github.io/nina-carducci-dev/",
+        Contexte: " | Optimisation et débogage du site d’une photographe pour améliorer ses performances et son référencement. | Utilisation d’audits Lighthouse et Wave pour identifier les axes d’amélioration. | Application des bonnes pratiques SEO et accessibilité pour une meilleure visibilité et expérience utilisateur. | ",
+        Architecture: " | Node.js & Express.js : Mise en place du serveur. | MongoDB & Mongoose : Stockage et gestion des données. | Architecture MVC : Organisation du code en modèles, vues et contrôleurs. | API RESTful : Conception d’une API structurée pour le front-end. | ",
+        Implementation: " | Audit et Analyse des Performances: réalisation d’un audit initial avec Lighthouse (SEO, accessibilité, performances), identification des éléments ralentissant le site et impactant le référencement. | Optimisation du Chargement et du Code: optimisation des images : Réduction du poids des fichiers pour accélérer le chargement, minification des fichiers HTML, CSS et JavaScript pour améliorer la rapidité d’affichage, réorganisation du code et amélioration de la structure pour un rendu plus efficace. | Optimisation du Référencement (SEO): ajout des balises meta essentielles (title, description, robots), mise en place du référencement local avec Schema.org, amélioration du HTML sémantique pour faciliter l’indexation du site. | Débogage et Correction des Bugs: correction des problèmes de navigation dans la modale de la galerie photo, correction de l’affichage des filtres des catégories d’images. |",
+        Challenges:" | Validation des Notations : vérification pour éviter les doublons par utilisateur. | Connexion Sécurisée à la Base de Données : utilisation de variables d’environnement. | Performance et Scalabilité : optimisation des requêtes et gestion efficace des ressources. |",
+        Défis: " | Optimiser les performances sans altérer le design du site. | Corriger les bugs de navigation tout en maintenant une expérience utilisateur fluide. | Trouver le bon équilibre entre optimisation SEO et accessibilité pour satisfaire les moteurs de recherche et les utilisateurs. |",
+        Déploiement: " | Vérification des optimisations avec un audit final Lighthouse. | Test des performances après modifications avec GTMetrix. | Validation de l’accessibilité avec Wave pour garantir une meilleure expérience utilisateur. | Livraison d’un rapport détaillé à la cliente, incluant les améliorations et leurs impacts. | "
     },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "Nina Carducci: The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-        Contexte: "Qui regis membra alium flagitaret.",
-        Architecture: "Qui regis membra alium flagitaret.",
-        Implementation: "Qui regis membra alium flagitaret.",
-        Challenges: "Qui regis membra alium flagitaret.",
-        Défis: "Qui regis membra alium flagitaret.",
-        Déploiement: "Qui regis membra alium flagitaret."
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "Sophie Bluel: The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-        Contexte: "Qui regis membra alium flagitaret.",
-        Architecture: "Qui regis membra alium flagitaret.",
-        Implementation: "Qui regis membra alium flagitaret.",
-        Challenges: "Qui regis membra alium flagitaret.",
-        Défis: "Qui regis membra alium flagitaret.",
-        Déploiement: "Qui regis membra alium flagitaret."
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "Booki: The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-        Contexte: "Qui regis membra alium flagitaret.",
-        Architecture: "Qui regis membra alium flagitaret.",
-        Implementation: "Qui regis membra alium flagitaret.",
-        Challenges: "Qui regis membra alium flagitaret.",
-        Défis: "Qui regis membra alium flagitaret.",
-        Déploiement: "Qui regis membra alium flagitaret."
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "Gestion de projet et système de veille technologique: The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-        Contexte: "Qui regis membra alium flagitaret.",
-        Architecture: "Qui regis membra alium flagitaret.",
-        Implementation: "Qui regis membra alium flagitaret.",
-        Challenges: "Qui regis membra alium flagitaret.",
-        Défis: "Qui regis membra alium flagitaret.",
-        Déploiement: "Qui regis membra alium flagitaret."
-    },  
 ];
 
 const contactConfig = {
     YOUR_EMAIL: "eltoucandepaitilla@gmail.com",
     YOUR_FONE: "(+33) 07 67 07 33 45",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    description: "Vous avez une idée, un projet ou une opportunité de collaboration ? Je suis disponible pour échanger avec vous. N'hésitez pas à me contacter pour toute question ou demande d'information.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_0lp1uwx",
@@ -230,7 +185,7 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/ElToucanDePaitilla",
     facebook: "https://facebook.com",
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",

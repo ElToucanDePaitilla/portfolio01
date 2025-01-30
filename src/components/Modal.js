@@ -11,15 +11,18 @@ const Modal = ({ isOpen, onClose, project }) => {
       <div className={`modal-content ${isOpen ? "fade-in" : "fade-out"}`} onClick={(e) => e.stopPropagation()}>
         <button className="modal-close" onClick={onClose}>X</button>
         <img src={project.img} alt="Project" className="modal-image" />
+        <p></p>
         <p className="modal-description">
-          <strong>Description:</strong> {project?.description || "Pas de description disponible"}
+          <strong>PROJET:</strong> {project?.Projet || "Pas de description disponible"}
         </p>
-        <p><strong>Contexte:</strong> {project?.Contexte || "Non spécifié"}</p>
-        <p><strong>Architecture:</strong> {project?.Architecture || "Non spécifié"}</p>
-        <p><strong>Implementation:</strong> {project?.Implementation || "Non spécifié"}</p>
-        <p><strong>Challenges:</strong> {project?.Challenges || "Non spécifié"}</p>
-        <p><strong>Défis:</strong> {project?.Défis || "Non spécifié"}</p>
-        <p><strong>Déploiement:</strong> {project?.Déploiement || "Non spécifié"}</p>
+        <p></p>
+        <p><strong>DESCRIPTION:</strong> {project?.Description || "Non spécifié"}</p>
+        <p><strong>CONTEXTE DU PROJET:</strong> {project?.Contexte || "Non spécifié"}</p>
+        <p><strong>ARCHITECTURES ET TECHNOLOGIES UTILISEES:</strong> {project?.Architecture || "Non spécifié"}</p>
+        <p><strong>IMPLEMENTATION DES FONCTIONALITES CLES:</strong> {project?.Implementation || "Non spécifié"}</p>
+        <p><strong>CHALLENGES ET SOLUTIONS:</strong> {project?.Challenges || "Non spécifié"}</p>
+        <p><strong>DEFIS TECHNIQUES ET APPROCHES STRATEGIQUES:</strong> {project?.Défis || "Non spécifié"}</p>
+        <p><strong>DEPLOIEMENT ET TESTS:</strong> {project?.Déploiement || "Non spécifié"}</p>
         <a href={project.link} className="modal-link" target="_blank" rel="noopener noreferrer">
           Voir le projet
         </a>

@@ -108,22 +108,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-  }
+    justify-content: flex-start; /* Ajustement ici */
+    position: relative;
+    max-height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden; /* Ajout pour éviter tout débordement horizontal */
+}
+
   
   /* Style du bouton de fermeture */
   .modal-close {
     position: absolute;
     top: 10px;
     right: 15px;
-    background: red;
-    color: white;
+    background: none; /* Supprime le fond */
+    color: #555; /* Gris foncé */
     border: none;
-    padding: 5px 10px;
+    font-size: 24px; /* Taille du "X" */
+    font-weight: bold; /* Rend le "X" plus visible */
     cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-  }
+    padding: 0;
+    transition: color 0.2s ease-in-out;
+}
+
+.modal-close:hover {
+    color: #adadad; /* Légèrement plus clair au survol */
+}
   
   /* Style de l'image */
   .modal-image {
@@ -141,9 +151,10 @@
   
   /* Style du lien */
   .modal-link {
+    margin-left: 50px;
     font-size: 16px;
-    color: blue;
-    text-decoration: underline;
+    color: rgb(0, 0, 255);
+    text-decoration: none;
   }
   
   .modal-description {
@@ -195,12 +206,16 @@
 }
 
 .modal-content img {
-  max-width: 100%; /* L'image ne dépassera jamais la largeur de la modale */
-  max-height: 40vh; /* L'image ne prendra pas plus de 40% de la hauteur de l'écran */
-  object-fit: contain; /* Assure que l'image garde ses proportions */
+  max-width: 100%;
+  width: auto;
+  max-height: 200px;
+  object-fit: contain;
   display: block;
-  margin: 0 auto; /* Centre l'image horizontalement */
+  margin: 0 auto;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Ombre douce */
+  border-radius: 8px; /* Coins légèrement arrondis pour un effet plus moderne */
 }
+
 
 
 .modal-overlay {
