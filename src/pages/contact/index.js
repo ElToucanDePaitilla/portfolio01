@@ -105,9 +105,10 @@ export const ContactUs = () => {
               )}
             </address>
             <p>{contactConfig.description}</p>
-            <a href="https://eltoucandepaitilla.github.io/portfolio01/cv.pdf" download>
-              <button className="btn ac_btn" type="button">Curriculum vitae</button>
+            <a href={`${process.env.PUBLIC_URL}/cv.pdf`} download>
+            <button className="btn ac_btn cv_btn" type="button">Curriculum vitae</button>
             </a>
+
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">

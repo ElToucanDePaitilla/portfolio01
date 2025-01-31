@@ -29,6 +29,11 @@ button.btn.ac_btn:hover {
     animation-delay: .3s;
 }
 
+.cv_btn {
+    position: relative;
+    top: 18px;
+}
+
 @keyframes shift-rightwards {
     0% {
         transform: translateX(-100%);
