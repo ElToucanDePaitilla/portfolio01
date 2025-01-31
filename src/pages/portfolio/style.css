@@ -1,28 +1,28 @@
 .po_items_ho {
-    column-width: 15em;
-    -moz-column-width: 15em;
-    -webkit-column-width: 15em;
-    column-gap: 4rem;
-    -moz-column-gap: 4rem;
-    -webkit-column-gap: 4rem;
+  column-width: 15em;
+  -moz-column-width: 15em;
+  -webkit-column-width: 15em;
+  column-gap: 4rem;
+  -moz-column-gap: 4rem;
+  -webkit-column-gap: 4rem;
 }
 
 .po_item {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    margin: 0.5rem auto;
-    position: relative;
-    background: var(--secondary-color);
-    padding: 6px;
-    border: 10px solid var(--secondary-color);
-    transition: 0.3s ease;
-    font-size: 0;
-    min-height: 300px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 0.5rem auto;
+  position: relative;
+  background: var(--secondary-color);
+  padding: 6px;
+  border: 10px solid var(--secondary-color);
+  transition: 0.3s ease;
+  font-size: 0;
+  min-height: 300px;
 }
 
 .po_item img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .po_item .content {
@@ -100,21 +100,21 @@
   .modal-content {
     background: white;
     width: 70%;
-    height: 70%;
+    height: auto;
     padding: 20px;
     border: 1px solid gray;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start; /* Ajustement ici */
+    align-items: flex-start;
+    justify-content: flex-start;
     position: relative;
     max-height: 80vh;
     overflow-y: auto;
-    overflow-x: hidden; /* Ajout pour éviter tout débordement horizontal */
+    overflow-x: hidden;
+    text-align: left;
 }
-
   
   /* Style du bouton de fermeture */
   .modal-close {
@@ -145,10 +145,27 @@
   /* Style du texte */
   .modal-description {
     font-size: 18px;
-    text-align: center;
-    margin-bottom: 10px;
-  }
+    color: rgb(158, 34, 34);
+    text-align: left;
+    margin-top: 20px;
+    white-space: normal;
+    word-wrap: break-word;
+    max-width: 90%;
+    line-height: 1.6;
+}
   
+.modal-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.modal-content p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
   /* Style du lien */
   .modal-link {
     margin-left: 50px;

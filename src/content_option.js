@@ -148,6 +148,30 @@ const langues = [{
 ];
 
 const dataportfolio = [{
+        img: require("./assets/images/Kasa.webp"),
+        Projet: " | Développement Front-End de la Plateforme de Location Immobilière Kasa. | ",
+        Description: " | Technologies : React, React Router, Create React App, Sass. | Compétences : Développement Front-End, Gestion de la Navigation, Composants Réutilisables, Optimisation des Performances, Accessibilité Web. | ",
+        link: "https://kasa-eltoucandepaitilla.netlify.app/",
+        Contexte: " | Refonte complète du site Kasa, plateforme de location immobilière, pour moderniser l’interface utilisateur et améliorer les performances. | Développement du front-end en React en suivant des maquettes Figma et un design system précis. | Implémentation d’un routage dynamique et gestion des états avec React Router. | ",
+        Architecture: " | React & React Router : Gestion de la navigation et des pages. | Create React App : Initialisation du projet. | Sass : Organisation et modularisation du style. | JSON : Gestion des données en l’absence de back-end. | ",
+        Implementation: " | Initialisation du Projet: mise en place du projet avec Create React App et structuration des composants React. | Gestion des Routes: création du routeur et intégration des pages dynamiques. | Développement des Composants: mise en place des éléments réutilisables comme Banner, Card, Collapse et Slideshow. | Intégration des Animations et CSS: utilisation de Sass et animations CSS pour améliorer l’expérience utilisateur. | Gestion des Erreurs: implémentation d’une page 404 et redirection en cas d’ID incorrect. | ",
+        Challenges:" | Implémentation d’un carrousel dynamique respectant les contraintes UX. | Création d’un système de collapses interactifs avec animations CSS. | Gestion d’une navigation fluide entre les pages, sans back-end actif. |",
+        Défis: " | Assurer une cohérence visuelle avec les maquettes Figma. | Optimiser les performances de l’application avec Create React App et la gestion du CSS en Sass. | Gérer la navigation et l’affichage des logements en exploitant un fichier JSON. |",
+        Déploiement: " | Tests et validation du rendu final avec vérification de la navigation. | Optimisation des performances et de l’accessibilité selon les bonnes pratiques React. | Livraison du projet avec documentation détaillée sur la structure et les composants. | "
+    },
+    {
+        img: require("./assets/images/SophieBluel.webp"),
+        Projet: " | Développement d'une Page Web Dynamique pour une Architecte d’Intérieur. | ",
+        Description: " | Technologies : JavaScript, Fetch API, HTML, CSS, Sass. | Compétences : Développement Front-End, Gestion des Événements, Manipulation du DOM, Authentification, Interaction avec une API REST. | ",
+        link: "https://eltoucandepaitilla.github.io/portfolio01/#/portfolio",
+        Contexte: " | Conception et développement du site portfolio d’une architecte d’intérieur en collaboration avec une équipe de développeurs. | Transformation d’une page statique en une page dynamique en intégrant des données issues d’un back-end. | Implémentation d’une authentification pour l’administration du site. | Création d’une modale permettant l’ajout et la suppression de projets. | ",
+        Architecture: " | JavaScript Vanilla : Manipulation du DOM et gestion des événements utilisateurs. | Fetch API : Récupération et envoi de données au serveur. | HTML & CSS : Structure et mise en page du site. | Sass : Modularisation et optimisation du style. | ",
+        Implementation: " | Intégration Dynamique des Données: récupération des projets via l’API et affichage dynamique sur la page. | Filtrage des Travaux: mise en place d’un système de filtres pour afficher les projets par catégorie. | Authentification de l’Administrateur: création d’une page de connexion sécurisée avec vérification des identifiants. | Gestion des Projets: ajout et suppression de travaux en interagissant avec l’API, actualisation dynamique du DOM. | Implémentation d’une Modale: affichage et gestion de la fenêtre modale pour l’ajout de projets. | ",
+        Challenges:" | Récupération et affichage dynamique des projets tout en respectant la structure HTML fournie. | Implémentation d’un système de filtrage efficace sans requêtes redondantes à l’API. | Gestion fluide des erreurs et des validations dans le formulaire de connexion et d’ajout de projets. | ",
+        Défis: " | Assurer la cohérence entre le back-end et le front-end dans les échanges de données via Fetch API. | Maintenir un affichage fluide et interactif sans nécessiter de rechargement de la page. | Respecter les spécifications des maquettes Figma tout en optimisant l'expérience utilisateur. | ",
+        Déploiement: " | Tests et validation des fonctionnalités sur différents navigateurs et tailles d’écran. | Optimisation des performances et gestion des erreurs pour garantir une expérience utilisateur fluide. | Livraison d’un site fonctionnel et documenté, prêt pour la mise en production. | "
+    },
+    {
         img: require("./assets/images/Photo-MVG.webp"),
         Projet: " | Mon Vieux Grimoire. |",
         Description: " | Développement from scratch du backend d'un site de notation de livres. | ",
