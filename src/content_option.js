@@ -23,7 +23,7 @@ const introdata = {
 
 const dataabout = {
     title: "développeur Web full Stack",
-    aboutme: "Certification RNCP38145, spécialisé dans la stack MERN (MongoDB, Express.js, React, Node.js). Conçois et développe des applications web modernes en appliquant les meilleures pratiques du développement web.",
+    aboutme: "Certification RNCP38145, spécialisé dans la stack MERN (MongoDB, Express.js, React, Node.js).Je conçois et développe des applications web modernes en appliquant les meilleures pratiques du développement web.",
 };
 const worktimeline = [{
         jobtitle: "Développeur Web Full Stack – Certification RNCP38145",
