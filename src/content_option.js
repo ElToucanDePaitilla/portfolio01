@@ -4,8 +4,8 @@ const meta = {
     description: "Découvrez mon portfolio de développeur Web Fullstack spécialisé en MongoDB, Express, React et Node.js. Création d’interfaces web dynamiques et performantes.",
     ogTitle: "Portfolio de El Toucan - Développeur Web Fullstack",
     ogDescription: "Je crée des applications web modernes et optimisées avec la stack MERN (MongoDB, Express, React, Node.js).",
-    ogImage: "URL_DE_MON_IMAGE",
-    ogUrl: "https://mon-site-portfolio.com",
+    ogImage: "/og-image.webp",
+    ogUrl: "https://eltoucandepaitilla.github.io/portfolio01/",
 };
 
 
@@ -17,16 +17,16 @@ const introdata = {
         third: "... aussi bien Frontend que Backend",
         fourth: "J'ai hâte que nous parlions de votre projet !",
     },
-    description: "Je suis Développeur Web",
+    description: "Profil: développeur web avec une forte expertise en business, développement des ventes, marketing, capable de comprendre les enjeux des entreprises et de proposer des solutions adaptées.",
     your_img_url: require("./assets/images/MVGHomePageAccroche.webp"),
 };
 
 const dataabout = {
-    title: "about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "développeur Web full Stack",
+    aboutme: "Certification RNCP38145, spécialisé dans la stack MERN (MongoDB, Express.js, React, Node.js). Conçois et développe des applications web modernes en appliquant les meilleures pratiques du développement web.",
 };
 const worktimeline = [{
-        jobtitle: "Etudiant Developpeur Web - Full Stack",
+        jobtitle: "Développeur Web Full Stack – Certification RNCP38145",
         where: "OpenClassrooms",
         date: "2024-2025",
     },
@@ -40,21 +40,19 @@ const worktimeline = [{
         where: "Diverses sociétés: Mis en demeure / Béton Rouge / Extensio IDF / Himalaya Solutions",
         date: "2001-2018",
     },
-
-
 ];
-
+/*
 const skills = [{
         name: "Html",
-        value: 90,
+        value: 70,
     },
     {
         name: "CSS",
-        value: 85,
+        value: 70,
     },
     {
         name: "Javascript",
-        value: 65,
+        value: 60,
     },
     {
         name: "React",
@@ -62,74 +60,80 @@ const skills = [{
     },
     {
         name: "Sass",
-        value: 70,
+        value: 60,
     },
+];
+*/
+const technologies = [{
+    title: "Frontend",
+    description: "Maîtrise des langages essentiels pour la création d’interfaces dynamiques et réactives : HTML, CSS, JavaScript, React, Sass. Capacité à structurer des pages web performantes et ergonomiques en respectant les bonnes pratiques de développement.",
+},
+{
+    title: "Backend",
+    description: "Bases solides en Node.js, Express.js pour construire des API robustes et gérer la logique serveur d’une application web. Compréhension des bases de données avec MongoDB et manipulation des données via des requêtes optimisées.",
+},
+{
+    title: "Intégration & Responsive Design",
+    description: "Utilisation des préprocesseurs et frameworks CSS (Sass, Bootstrap, Tailwind) pour garantir un affichage optimal sur tous les écrans. Veille à l’accessibilité et aux performances pour offrir une expérience utilisateur fluide.",
+},
+{
+    title: "Développement Full-Stack avec MERN",
+    description: "Capacité à créer des applications complètes en utilisant MongoDB, Express.js, React et Node.js, en assurant la communication entre le front-end et le back-end de manière efficace.",
+},
+{
+    title: "Versioning & Collaboration",
+    description: "Utilisation de Git & GitHub pour gérer les versions du code et collaborer efficacement avec d’autres développeurs sur des projets en équipe.",
+},
 ];
 
 const services = [{
-        title: "Ful Stack avec M.E.R.N",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Développement Full Stack avec MERN",
+        description: "Conception et mise en œuvre d’une application complète avec React (frontend), Node.js (backend) et MongoDB (base de données).",
     },
     {
-        title: "Intégration web avec HTML-CSS",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Développement Frontend avec React.js",
+        description: "Créer des interfaces utilisateur attractives et responsives en utilisant HTML et CSS.",
     },
     {
-        title: "Développement Web avec JAVASCRIPT",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Développement Backend avec Node.js & Express.js",
+        description: "Mise en place d’un serveur web sécurisé, gestion des routes API et connexion avec MongoDB.",
     },
     {
-        title: "UI dynamique interface avec REACT",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Développement back-end avec NODEJS",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Optimisation et Debug",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Optimisation et Debugging",
+        description: "Débuggage du code avec Chrome DevTools, amélioration des performances et gestion des erreurs.",
     },
 ];
 
 const soft_skills = [{
-        title: "Marketing-vente",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Collaboration & Esprit d’équipe",
+        description: "Capacité à travailler efficacement en équipe, en mode agile et en communication constante avec les différents acteurs d’un projet.",
     },
     {
-        title: "Développement des ventes",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Autonomie & Apprentissage Continu",
+        description: "Forte capacité d’auto-formation et d’adaptation aux évolutions technologiques.",
     },
     {
-        title: "Gestion de projet",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Réalisation des contrats",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Développement back-end avec NODEJS",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Optimisation et Debug",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Gestion de projet et organisation",
+        description: "Planification efficace des tâches, respect des deadlines et suivi rigoureux des livrables.",
     },
 ];
 
 
 const formation = [{
+    title: "Certification RNCP38145 – Développeur Web Full Stack",
+    description: "OpenClassrooms / Paris",
+},
+{
     title: "Master Marketing et e-commerce",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    description: "CESCI / Paris",
 },
 {
     title: "Maîtrise Marketing-Vente",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    description: "CNAM - ISCV / Paris",
 },
 {
     title: "Bac E Mathématiques et Techniques",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    description: "Lycée Alexis de Tocqueville / Cherbourg",
 },
 ];
 
@@ -172,7 +176,7 @@ const dataportfolio = [{
         Déploiement: " | Tests et validation des fonctionnalités sur différents navigateurs et tailles d’écran. | Optimisation des performances et gestion des erreurs pour garantir une expérience utilisateur fluide. | Livraison d’un site fonctionnel et documenté, prêt pour la mise en production. | "
     },
     {
-        img: require("./assets/images/Photo-MVG.webp"),
+        img: require("./assets/images/MVG.webp"),
         Projet: " | Mon Vieux Grimoire. |",
         Description: " | Développement from scratch du backend d'un site de notation de livres. | ",
         link: "https://www.free.fr/freebox/",
@@ -199,7 +203,7 @@ const dataportfolio = [{
         img: require("./assets/images/Booki.webp"),
         Projet: " | Intégration de la Page d'Accueil d'une Agence de Voyage. | ",
         Description: " | Technologies : HTML, CSS, Sass. | Compétences : Intégration Web, Responsive Design, Accessibilité, Versioning avec Git/GitHub. | ",
-        link: "https://booki-travel.netlify.app/",
+        link: "https://eltoucandepaitilla.github.io/bki01/",
         Contexte: " | Développement de la page d'accueil du site Booki, permettant aux utilisateurs de rechercher des hébergements et activités. | Intégration des maquettes Figma en version desktop, tablette et mobile. | Collaboration avec une équipe de développement sous la direction de la CTO. | ",
         Architecture: " | HTML : Structuration du contenu et sémantique. | CSS & Sass : Mise en page et gestion du responsive design avec Media Queries. | Git/GitHub : Versioning et collaboration sur le projet. | ",
         Implementation: " | Mise en place de la structure HTML en respectant les maquettes. | Utilisation de Flexbox et Grid pour l’organisation des éléments. | Intégration du formulaire de recherche et des filtres interactifs. | Développement du responsive design pour une adaptation optimale sur tous les écrans. | Validation du code avec les outils W3C pour garantir la qualité et l’accessibilité. | ",
@@ -231,7 +235,7 @@ export {
     dataabout,
     dataportfolio,
     worktimeline,
-    skills,
+    technologies,
     services,
     soft_skills,
     formation,

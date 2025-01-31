@@ -6,7 +6,7 @@ import {
   dataabout,
   meta,
   worktimeline,
-  skills,
+  technologies,
   services,
   soft_skills,
   formation,
@@ -58,10 +58,13 @@ export const About = () => {
             </table>
           </Col>
         </Row>
+
+{/*        
         <Row className="sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">compétences</h3>
           </Col>
+ 
           <Col lg="7">
             {skills.map((data, i) => {
               return (
@@ -81,9 +84,27 @@ export const About = () => {
               );
             })}
           </Col>
+
         </Row>
 
+*/}
 
+        <Row className="sec_sp">
+          <Col lang="5">
+            <h3 className="color_sec py-4">langages et technologies</h3>
+          </Col>
+          <Col lg="7">
+            {services.map((data, i) => {
+              return (
+                <div className="service_ py-4" key={i}>
+                  <h5 className="service__title">{data.title}</h5>
+                  <p className="service_desc">{data.description}</p>
+                </div>
+              );
+            })}
+          </Col>
+        </Row>
+{/*
         <Row className="sec_sp">
           <Col lang="5">
             <h3 className="color_sec py-4">services</h3>
@@ -99,7 +120,7 @@ export const About = () => {
             })}
           </Col>
         </Row>
-
+*/}
 
         <Row className="sec_sp">
           <Col lang="5">
@@ -121,7 +142,7 @@ export const About = () => {
 
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">Formation</h3>
+            <h3 className="color_sec py-4">formation</h3>
           </Col>
           <Col lg="17">
             {formation.map((data, i) => {
@@ -151,14 +172,6 @@ export const About = () => {
             })}
           </Col>
         </Row>
-
-
-
-
-
-
-
-
 
 
 
