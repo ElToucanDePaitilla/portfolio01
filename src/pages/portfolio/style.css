@@ -168,9 +168,10 @@
 
   /* Style du lien */
   .modal-link {
+    margin-top: 20px;
     margin-left: 50px;
     font-size: 16px;
-    color: rgb(0, 0, 255);
+    color: rgb(156, 156, 156);
     text-decoration: none;
   }
   

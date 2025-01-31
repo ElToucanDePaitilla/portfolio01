@@ -195,6 +195,18 @@ const dataportfolio = [{
         Défis: " | Optimiser les performances sans altérer le design du site. | Corriger les bugs de navigation tout en maintenant une expérience utilisateur fluide. | Trouver le bon équilibre entre optimisation SEO et accessibilité pour satisfaire les moteurs de recherche et les utilisateurs. |",
         Déploiement: " | Vérification des optimisations avec un audit final Lighthouse. | Test des performances après modifications avec GTMetrix. | Validation de l’accessibilité avec Wave pour garantir une meilleure expérience utilisateur. | Livraison d’un rapport détaillé à la cliente, incluant les améliorations et leurs impacts. | "
     },
+    {
+        img: require("./assets/images/Booki.webp"),
+        Projet: " | Intégration de la Page d'Accueil d'une Agence de Voyage. | ",
+        Description: " | Technologies : HTML, CSS, Sass. | Compétences : Intégration Web, Responsive Design, Accessibilité, Versioning avec Git/GitHub. | ",
+        link: "https://booki-travel.netlify.app/",
+        Contexte: " | Développement de la page d'accueil du site Booki, permettant aux utilisateurs de rechercher des hébergements et activités. | Intégration des maquettes Figma en version desktop, tablette et mobile. | Collaboration avec une équipe de développement sous la direction de la CTO. | ",
+        Architecture: " | HTML : Structuration du contenu et sémantique. | CSS & Sass : Mise en page et gestion du responsive design avec Media Queries. | Git/GitHub : Versioning et collaboration sur le projet. | ",
+        Implementation: " | Mise en place de la structure HTML en respectant les maquettes. | Utilisation de Flexbox et Grid pour l’organisation des éléments. | Intégration du formulaire de recherche et des filtres interactifs. | Développement du responsive design pour une adaptation optimale sur tous les écrans. | Validation du code avec les outils W3C pour garantir la qualité et l’accessibilité. | ",
+        Challenges:" | Intégration précise des maquettes sans utiliser le code généré par Figma. | Gestion du responsive en respectant les breakpoints définis. | Assurer une expérience utilisateur fluide avec une mise en page cohérente et accessible. | ",
+        Défis: " | Respecter fidèlement le design tout en optimisant le code pour les performances. | Utiliser des unités relatives et des bonnes pratiques CSS pour une compatibilité multi-écrans. | Garantir la maintenabilité du code avec une bonne structuration des fichiers CSS et HTML. | ",
+        Déploiement: " | Vérification du rendu final sur plusieurs navigateurs et tailles d’écran. | Validation du code HTML et CSS avec les validateurs W3C. | Mise en ligne du projet et documentation des étapes d'intégration. | "
+    },
 ];
 
 const contactConfig = {
