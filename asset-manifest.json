@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio01/static/css/main.7e17ff3e.css",
-    "main.js": "/portfolio01/static/js/main.bffbb8db.js",
+    "main.js": "/portfolio01/static/js/main.286083f4.js",
     "static/media/MVGHomePageAccroche.webp": "/portfolio01/static/media/MVGHomePageAccroche.b317966d33bd3ff932c4.webp",
     "static/media/Kasa.webp": "/portfolio01/static/media/Kasa.7e5dd04a47d8caf48ff2.webp",
     "static/media/NinaCarducci.webp": "/portfolio01/static/media/NinaCarducci.75180aad647ef735d6ae.webp",
@@ -12,6 +12,6 @@
   },
   "entrypoints": [
     "static/css/main.7e17ff3e.css",
-    "static/js/main.bffbb8db.js"
+    "static/js/main.286083f4.js"
   ]
 }
