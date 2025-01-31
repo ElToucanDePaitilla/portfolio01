@@ -18,7 +18,7 @@ const introdata = {
         fourth: "J'ai hâte que nous parlions de votre projet !",
     },
     description: "Je suis Développeur Web",
-    your_img_url: require("./assets/images/MVG03.png"),
+    your_img_url: require("./assets/images/MVGHomePageAccroche.webp"),
 };
 
 const dataabout = {
@@ -148,8 +148,8 @@ const langues = [{
 ];
 
 const dataportfolio = [{
-        img: require("./assets/images/Photo-MVG.png"),
-        Projet: " | Mon Vieux Grimoire.",
+        img: require("./assets/images/Photo-MVG.webp"),
+        Projet: " | Mon Vieux Grimoire. |",
         Description: " | Développement from scratch du backend d'un site de notation de livres. | ",
         link: "https://www.free.fr/freebox/",
         Contexte: " | Développement du back-end pour une plateforme de notation de livres, collaboration avec un développeur front-end (React), respect des bonnes pratiques de développement et du Green Code. | ",
@@ -160,7 +160,7 @@ const dataportfolio = [{
         Déploiement: " | Tests des endpoints avec Postman. | Déploiement sur un serveur distant (ex : Heroku, Vercel, …). | "
     },
     {
-        img: require("./assets/images/NinaCarducci.png"),
+        img: require("./assets/images/NinaCarducci.webp"),
         Projet: " | Optimisation et Débogage du Site de Nina Carducci. | ",
         Description: " | Technologies : Lighthouse, GTMetrix, Chrome DevTools, Schema.org, OpenGraph, Twitter Cards. | Compétences : SEO, Accessibilité Web, Optimisation des Performances, Débogage, Analyse. | ",
         link: "https://eltoucandepaitilla.github.io/nina-carducci-dev/",

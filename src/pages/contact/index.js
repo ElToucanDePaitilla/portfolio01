@@ -81,11 +81,8 @@ export const ContactUs = () => {
         <Row className="sec_sp">
           <Col lg="12">
             <Alert
-              //show={formData.show}
               variant={formData.variant}
-              className={`rounded-0 co_alert ${
-                formData.show ? "d-block" : "d-none"
-              }`}
+              className={`rounded-0 co_alert ${formData.show ? "d-block" : "d-none"}`}
               onClose={() => setFormdata({ show: false })}
               dismissible
             >
@@ -96,9 +93,7 @@ export const ContactUs = () => {
             <h3 className="color_sec py-4">Me contacter</h3>
             <address>
               <strong>Email:</strong>{" "}
-              <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
-                {contactConfig.YOUR_EMAIL}
-              </a>
+              <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>{contactConfig.YOUR_EMAIL}</a>
               <br />
               <br />
               {contactConfig.hasOwnProperty("YOUR_FONE") ? (
@@ -110,6 +105,9 @@ export const ContactUs = () => {
               )}
             </address>
             <p>{contactConfig.description}</p>
+            <a href="https://eltoucandepaitilla.github.io/portfolio01/cv.pdf" download>
+              <button className="btn ac_btn" type="button">Curriculum vitae</button>
+            </a>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">
@@ -165,3 +163,4 @@ export const ContactUs = () => {
     </HelmetProvider>
   );
 };
+
