@@ -23,8 +23,9 @@ const Modal = ({ isOpen, onClose, project }) => {
         <p><strong>CHALLENGES ET SOLUTIONS:</strong> {project?.Challenges || "Non spécifié"}</p>
         <p><strong>DEFIS TECHNIQUES ET APPROCHES STRATEGIQUES:</strong> {project?.Défis || "Non spécifié"}</p>
         <p><strong>DEPLOIEMENT ET TESTS:</strong> {project?.Déploiement || "Non spécifié"}</p>
+        <p><strong>LIEN:</strong> {project?.Lien || "Non spécifié"}</p>
         <a href={project.link} className="modal-link" target="_blank" rel="noopener noreferrer">
-          Voir le projet
+          Voir le lien
         </a>
       </div>
     </div>
