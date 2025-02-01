@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio01/static/css/main.1deade33.css",
-    "main.js": "/portfolio01/static/js/main.aff87370.js",
+    "main.js": "/portfolio01/static/js/main.b52dc4fa.js",
     "static/media/MVGHomePageAccroche.webp": "/portfolio01/static/media/MVGHomePageAccroche.b317966d33bd3ff932c4.webp",
     "static/media/MenuMaker.webp": "/portfolio01/static/media/MenuMaker.2604f4daea57d9879869.webp",
     "static/media/Kasa.webp": "/portfolio01/static/media/Kasa.7e5dd04a47d8caf48ff2.webp",
@@ -14,6 +14,6 @@
   },
   "entrypoints": [
     "static/css/main.1deade33.css",
-    "static/js/main.aff87370.js"
+    "static/js/main.b52dc4fa.js"
   ]
 }
