@@ -58,7 +58,6 @@ export const About = () => {
             </table>
           </Col>
         </Row>
-
 {/*        
         <Row className="sec_sp">
           <Col lg="5">
