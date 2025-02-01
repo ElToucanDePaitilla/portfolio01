@@ -31,12 +31,12 @@ const worktimeline = [{
         date: "2024-2025",
     },
     {
-        jobtitle: "Développeur Frontend",
+        jobtitle: "Webmaster",
         where: "Himalaya Solutions",
         date: "2018-2024",
     },
     {
-        jobtitle: "Développeur Frontend",
+        jobtitle: "Webmaster",
         where: "Diverses sociétés: Mis en demeure / Béton Rouge / Extensio IDF / Himalaya Solutions",
         date: "2001-2018",
     },
