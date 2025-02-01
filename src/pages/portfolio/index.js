@@ -36,13 +36,13 @@ export const Portfolio = () => {
         <div className="mb-5 po_items_ho">
           {dataportfolio.map((data, i) => {
             return (
-              <div key={i} className="po_item">
-                <img src={data.img} alt="" />
-                <div className="content">
-                  <p>{data.description}</p>
-                  <button onClick={() => openModal(data)}>View Project</button>
-                </div>
-              </div>
+              <div key={i} className="po_item" onClick={() => openModal(data)}>
+  <img src={data.img} alt="" />
+  <div className="content">
+    <p>{data.description}</p>
+    <span className="view-project-label">View Project</span>
+  </div>
+</div>
             );
           })}
         </div>

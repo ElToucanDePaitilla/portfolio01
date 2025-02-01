@@ -21,6 +21,22 @@
   min-height: 300px;
 }
 
+/*Visibilité du libellé*/
+
+.view-project-label {
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+.view-project-label:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
 .po_item img {
   max-width: 100%;
 }
