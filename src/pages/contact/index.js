@@ -105,7 +105,7 @@ export const ContactUs = () => {
               )}
             </address>
             <p>{contactConfig.description}</p>
-            <a href={`${process.env.PUBLIC_URL}/cv.pdf`} download>
+            <a href={`${process.env.PUBLIC_URL}/CV-Jean-Luc BEAULIEU.pdf`} download>
             <button className="btn ac_btn cv_btn" type="button">Curriculum vitae</button>
             </a>
 
