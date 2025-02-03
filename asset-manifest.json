@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio01/static/css/main.573b9f8c.css",
-    "main.js": "/portfolio01/static/js/main.eb4d4412.js",
+    "main.js": "/portfolio01/static/js/main.3bb6c488.js",
     "static/media/MVGHomePageAccroche.webp": "/portfolio01/static/media/MVGHomePageAccroche.b317966d33bd3ff932c4.webp",
     "static/media/MenuMaker.webp": "/portfolio01/static/media/MenuMaker.2604f4daea57d9879869.webp",
     "static/media/Kasa.webp": "/portfolio01/static/media/Kasa.7e5dd04a47d8caf48ff2.webp",
@@ -9,11 +9,10 @@
     "static/media/Booki.webp": "/portfolio01/static/media/Booki.99f7b492efe1d80b8c09.webp",
     "static/media/SophieBluel.webp": "/portfolio01/static/media/SophieBluel.a10360f3f7714e143e30.webp",
     "static/media/MVG.webp": "/portfolio01/static/media/MVG.d4e615f4dfaeb049b6f7.webp",
-    "static/media/OrganizOptimiz.webp": "/portfolio01/static/media/OrganizOptimiz.e34ea3b3c7455f15869f.webp",
     "index.html": "/portfolio01/index.html"
   },
   "entrypoints": [
     "static/css/main.573b9f8c.css",
-    "static/js/main.eb4d4412.js"
+    "static/js/main.3bb6c488.js"
   ]
 }
