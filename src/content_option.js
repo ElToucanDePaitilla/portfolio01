@@ -175,7 +175,7 @@ const dataportfolio = [{
         Challenges:"  | Récupération et affichage dynamique des projets tout en respectant la structure HTML fournie. | Implémentation d’un système de filtrage efficace sans requêtes redondantes à l’API. | Gestion fluide des erreurs et des validations dans le formulaire de connexion et d’ajout de projets. | ",
         Défis: "  | Assurer la cohérence entre le back-end et le front-end dans les échanges de données via Fetch API. | Maintenir un affichage fluide et interactif sans nécessiter de rechargement de la page. | Respecter les spécifications des maquettes Figma tout en optimisant l'expérience utilisateur. | ",
         Déploiement: " | Tests et validation des fonctionnalités sur différents navigateurs et tailles d’écran. | Optimisation des performances et gestion des erreurs pour garantir une expérience utilisateur fluide. | Livraison d’un site fonctionnel et documenté, prêt pour la mise en production. | ",
-        Lien: "  | Le contenu est actuellement en cours de mise à jour. Nous vous prions de bien vouloir patienter et de revenir ultérieurement. | ",
+        Lien: "  | Repository sur Github. | ",
     },
     {
         img: require("./assets/images/MVG.webp"),
