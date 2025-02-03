@@ -230,19 +230,6 @@ const dataportfolio = [{
         Déploiement: " | Finalisation des livrables : spécifications techniques, Kanban détaillé, et support de présentation. | Réunion de validation avec le Product Owner pour s’assurer de la conformité avec les attentes du client. | Livraison du projet sous forme de documentation complète, prête à être utilisée par l’équipe de développement. | ",
         Lien: "  | Maquette du prototype, site en attente de validation pour le lancement du développement. | ",
     },
-    {
-        img: require("./assets/images/OrganizOptimiz.webp"),
-        Projet: "  | Structuration et Planification de la Formation Développeur Web avec Notion. | ",
-        Description: "  | Technologies : Notion. | Compétences : Gestion de Projet, Structuration de l’Information, Planification Efficace, Collaboration Asynchrone, Cartographie Mentale. | ",
-        link: "https://notion.so",
-        Contexte: "  | Utilisation de Notion comme outil central pour la structuration, l’organisation et la planification de la formation Développeur Web. | Gestion des différents projets professionnalisants à travers un tableau de bord unique, facilitant le suivi des étapes clés de la formation. | Optimisation de la collaboration entre étudiants et mentors, avec un accès simplifié aux ressources et aux informations essentielles. | ",
-        Architecture: "  | Notion : Centralisation des documents, des projets, des tâches et des notes dans un espace unique. | Tableaux de Bord Personnalisés : Vues Kanban, calendriers, timelines et listes pour organiser et suivre l’évolution de la formation. | Cartographie Mentale : Outils pour la gestion des idées et la visualisation des parcours d’apprentissage. | Collaboration Asynchrone : Partage d’informations en temps réel grâce aux commentaires, mentions et pages interactives. | ",
-        Implementation: " | Centralisation de l’Information : regroupement des projets de formation, des ressources pédagogiques et des tâches à accomplir dans Notion. | Planification Efficace : définition des dates cibles de soutenance des projets, attribution des responsabilités et suivi des objectifs professionnels. | Structuration de l’Information : utilisation de sections, d’en-têtes, de couleurs et d’icônes pour une présentation claire et intuitive des contenus. | Collaboration et Partage : facilitation des échanges entre les étudiants et les mentors grâce aux commentaires et aux partages de pages. | Suivi des Performances : création de dashboards interactifs pour visualiser les progrès réalisés et les compétences acquises tout au long de la formation. | ",
-        Challenges:"  | Créer un tableau de bord simple et direct pour un accès rapide aux informations clés de la formation. | Structurer et organiser les informations de manière panoramique pour une vue d’ensemble claire du parcours. | Faciliter la gestion des idées et la planification des projets professionnels à travers des outils de cartographie mentale. | ",
-        Défis: "  | Adapter Notion aux besoins spécifiques de la formation Développeur Web, en mettant l’accent sur la planification efficace. | Assurer la fluidité de la collaboration entre les étudiants et les mentors, tout en favorisant la communication asynchrone. | Centraliser les ressources de manière intuitive pour faciliter le suivi des projets professionnalisants. | ",
-        Déploiement: " | Configuration de Notion avec des tableaux de bord personnalisés pour le suivi de la formation et des projets. | Formation des utilisateurs (étudiants et mentors) à l’utilisation de Notion pour la gestion des tâches et la collaboration. | Suivi continu des performances et des objectifs pédagogiques grâce à des dashboards interactifs. | ",
-        Lien: "  | Lien vers le site de Notion présentant les différents outils de planification, de communications et de collaboratins. | ",
-    },
 ];
 
 const contactConfig = {
