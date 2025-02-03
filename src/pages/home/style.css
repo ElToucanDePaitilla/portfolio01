@@ -7,8 +7,26 @@ section {
     transition: all .5s ease-in;
 }
 
-.who_am_I {
+
+/* Titre du Texte défilant */
+.intro_sec .text h2 {
+    color: inherit;
+}
+
+/* Texte défilant */
+.intro_sec .text h1 {
     font-family: Cinzel;
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    height: 50px;
+    color: inherit;
+}
+
+/* description */ 
+.intro_sec .text p {
+    color: inherit;
+    margin-bottom: 60px;
 }
 
 .has-first-color {
@@ -30,6 +48,7 @@ section {
     text-decoration: none;
 }
 
+/*Paragraphe Titre + Texte défilant*/
 .intro_sec {
     height: calc(100vh - 60px);
     min-height: 700px;
@@ -37,38 +56,9 @@ section {
     margin-top: -60px;
 }
 
-@media (max-width:1260px) {
-    .intro_sec {
-        display: block;
-        height: auto!important;
-    }
-}
-
-.intro_sec .text,
-.intro_sec .h_bg-image {
-    width: 50%;
-}
-
-@media (max-width:1260px) {
-    .intro_sec .text,
-    .intro_sec .h_bg-image {
-        width: 100%;
-    }
-}
-
 .intro_sec .intro {
     max-width: 450px;
     margin: 0 auto;
-}
-
-
-
-@media (max-width:1260px) {
-    .intro_sec .intro {
-        max-width: 700px;
-        padding-left: 80px;/*marge latéraledu block text*/
-        padding-right: 20px;
-    }
 }
 
 .intro_sec .intro .feature .wrap-icon {
@@ -82,22 +72,20 @@ section {
     color: #5cccc9;
 }
 
-/*texte défilant*/
-.intro_sec .text h1 {
-    font-size: 30px;
-    margin-bottom: 50px;
-    font-weight: 700;
-}
-
 .intro_sec .text h3 {
     font-size: 16px;
     font-weight: 700;
 }
 
+.intro_sec .text,
+.intro_sec .h_bg-image {
+    width: 50%;
+}
+
+/* Image principale de la page d'accueil*/
 .intro_sec .h_bg-image {
     background-size: cover;
     background-position: center;
-    min-height: 700px;
     position: relative;
 }
 
@@ -195,22 +183,6 @@ section {
     justify-content: center;
 }
 
-@media (max-width:1260px) {
-    .intro_sec .h_bg-image {
-        height: 600px;
-        min-height: 75vh;
-        margin-bottom: 30px;
-    }
-    .intro_sec .h_bg-image .block {
-        top: unset;
-        bottom: 0;
-        width: 100%;
-        margin: 0;
-        left: 50%;
-        transform: translate(-50%, 50%);
-    }
-}
-
 .intro_sec .h_bg-image .block .wrap-icon {
     font-size: 40px;
     color: var(--text-color);
@@ -234,4 +206,72 @@ section {
 
 .intro_sec .h_bg-image {
     filter: saturate(0.5);
+}
+
+/** #################### MEDIA QURIES ####################  **/
+
+@media (max-width:1360px) {
+
+    .intro_sec {
+        display: block;
+        height: auto!important;
+    }
+
+    .intro_sec .text,
+    .intro_sec .h_bg-image {
+        width: 100%;
+    }
+
+    /*Block Accroche + Text défilant + descriptif + 2 boutons*/    
+    .intro_sec .intro {
+        max-width: 500px;
+        padding-left: 80px;/*marge latérale gauche du block*/
+        padding-right: 20px;/*marge latérale droite du block*/
+        /*height: 300px;*/
+    }
+
+    .intro_sec .h_bg-image {
+        height: 600px;
+        min-height: 75vh;
+        margin-bottom: 30px;
+    }
+    
+    .intro_sec .h_bg-image .block {
+        top: unset;
+        bottom: 0;
+        width: 100%;
+        margin: 0;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+}
+
+@media (max-width:992px) {
+
+
+    /*Block Accroche + Text défilant + descriptif + 2 boutons*/    
+    .intro_sec .intro {
+        padding-left: 20px;/*marge latérale gauche du block*/
+        padding-right: 20px;/*marge latérale droite du block*/
+        /*height: 300px;*/
+    }
+
+    .intro_sec .h_bg-image {
+        z-index: -100;
+        
+        max-height: 200px;
+        min-height: 75vh;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    
+    .intro_sec .h_bg-image .block {
+        top: unset;
+        bottom: 0;
+        width: 100%;
+        margin: 0;
+        left: 50%;
+       
+        
+    }
 }
