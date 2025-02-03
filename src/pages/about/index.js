@@ -3,7 +3,8 @@ import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import {
-  dataabout,
+  dataabout1,
+  dataabout2,
   meta,
   worktimeline,
   technologies,
@@ -28,16 +29,32 @@ export const About = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
+
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">{dataabout.title}</h3>
+            <h3 className="color_sec py-4">{dataabout1.title}</h3>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
-              <p>{dataabout.aboutme}</p>
+              <p>{dataabout1.aboutme}</p>
             </div>
           </Col>
         </Row>
+
+        <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">{dataabout2.title}</h3>
+          </Col>
+          <Col lg="7" className="d-flex align-items-center">
+            <div>
+              <p>{dataabout2.aboutme}</p>
+            </div>
+          </Col>
+        </Row>
+
+
+
+
         <Row className=" sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">parcours</h3>

@@ -21,7 +21,12 @@ const introdata = {
     your_img_url: require("./assets/images/MVGHomePageAccroche.webp"),
 };
 
-const dataabout = {
+const dataabout1 = {
+    title: "webmaster",
+    aboutme: "Spécialiste en gestion de sites web, j’allie développement, optimisation SEO et stratégie web marketing pour booster la visibilité et la performance digitale des entreprises. Je crée et gère des contenus adaptés pour renforcer l’impact et la cohérence de la communication en ligne.",
+};
+
+const dataabout2 = {
     title: "développeur Web full Stack",
     aboutme: "Certification RNCP38145, spécialisé dans la stack MERN (MongoDB, Express.js, React, Node.js). Je conçois et développe des applications web modernes en appliquant les meilleures pratiques du développement web.",
 };
@@ -251,7 +256,8 @@ const socialprofils = {
 };
 export {
     meta,
-    dataabout,
+    dataabout1,
+    dataabout2,
     dataportfolio,
     worktimeline,
     technologies,
