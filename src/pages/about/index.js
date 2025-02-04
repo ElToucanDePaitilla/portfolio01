@@ -32,7 +32,7 @@ export const About = () => {
 
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">{dataabout1.title}</h3>
+            <h3 className="color_sec py-4 sous-chapitre-profil">{dataabout1.title}</h3>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
@@ -43,7 +43,7 @@ export const About = () => {
 
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">{dataabout2.title}</h3>
+            <h3 className="color_sec py-4 sous-chapitre-profil">{dataabout2.title}</h3>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
@@ -57,7 +57,7 @@ export const About = () => {
 
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">parcours</h3>
+            <h3 className="color_sec py-4 sous-chapitre-profil">parcours</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
@@ -107,7 +107,7 @@ export const About = () => {
 
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">langages et technologies</h3>
+            <h3 className="color_sec py-4 sous-chapitre-profil">langages et technologies</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {
@@ -140,7 +140,7 @@ export const About = () => {
 
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">soft-skills</h3>
+            <h3 className="color_sec py-4 sous-chapitre-profil">soft-skills</h3>
           </Col>
           <Col lg="17">
             {soft_skills.map((data, i) => {
@@ -158,7 +158,7 @@ export const About = () => {
 
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">formation</h3>
+            <h3 className="color_sec py-4 sous-chapitre-profil">formation</h3>
           </Col>
           <Col lg="17">
             {formation.map((data, i) => {
@@ -175,7 +175,7 @@ export const About = () => {
 
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">langues</h3>
+            <h3 className="color_sec py-4 sous-chapitre-profil">langues</h3>
           </Col>
           <Col lg="17">
             {langues.map((data, i) => {

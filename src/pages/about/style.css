@@ -11,8 +11,25 @@
     border-color: var(--text-color) !important;
 }
 
+/*Sous-chapître profil*/
+
+.sous-chapitre-profil {
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Progress bar*/
 .progress-title {
-    font-size: 16px;
+    font-size: 6px;
     font-weight: 700;
     margin: 15px 0 20px;
     font-family: 'Raleway';
@@ -61,7 +78,7 @@
     font-size: 45px;
 }
 
-.service__title {/*point de démarrage du sous-titre*/
+.service__title {/*point de démarrage du sous-titre de "langages et technologies"*/
     padding: 8px 0;
     border-bottom: solid 2px var(--secondary-color);
 }

@@ -11,19 +11,19 @@ const Modal = ({ isOpen, onClose, project }) => {
       <div className={`modal-content ${isOpen ? "fade-in" : "fade-out"}`} onClick={(e) => e.stopPropagation()}>
         <button className="modal-close" onClick={onClose}>X</button>
         <img src={project.img} alt="Project" className="modal-image" />
-        <p></p>
+       <br></br>
+       <br></br>
         <p className="modal-description">
-          <strong>PROJET:</strong> {project?.Projet || "Pas de description disponible"}
+          <strong>PROJET:&nbsp;&nbsp;&nbsp;</strong> {project?.Projet || "Pas de description disponible"}
         </p>
-        <p></p>
-        <p><strong>DESCRIPTION:</strong> {project?.Description || "Non spécifié"}</p>
-        <p><strong>CONTEXTE DU PROJET:</strong> {project?.Contexte || "Non spécifié"}</p>
-        <p><strong>ARCHITECTURES ET TECHNOLOGIES UTILISEES:</strong> {project?.Architecture || "Non spécifié"}</p>
-        <p><strong>IMPLEMENTATION DES FONCTIONALITES CLES:</strong> {project?.Implementation || "Non spécifié"}</p>
-        <p><strong>CHALLENGES ET SOLUTIONS:</strong> {project?.Challenges || "Non spécifié"}</p>
-        <p><strong>DEFIS TECHNIQUES ET APPROCHES STRATEGIQUES:</strong> {project?.Défis || "Non spécifié"}</p>
-        <p><strong>DEPLOIEMENT ET TESTS:</strong> {project?.Déploiement || "Non spécifié"}</p>
-        <p><strong>LIEN:</strong> {project?.Lien || "Non spécifié"}</p>
+        <p><strong>DESCRIPTION:&nbsp;&nbsp;&nbsp;</strong> {project?.Description || "Non spécifié"}</p>
+        <p><strong>CONTEXTE DU PROJET:&nbsp;&nbsp;&nbsp;</strong> {project?.Contexte || "Non spécifié"}</p>
+        <p><strong>ARCHITECTURES ET TECHNOLOGIES UTILISEES:&nbsp;&nbsp;&nbsp;</strong> {project?.Architecture || "Non spécifié"}</p>
+        <p><strong>IMPLEMENTATION DES FONCTIONALITES CLES:&nbsp;&nbsp;&nbsp;</strong> {project?.Implementation || "Non spécifié"}</p>
+        <p><strong>CHALLENGES ET SOLUTIONS:&nbsp;&nbsp;&nbsp;</strong> {project?.Challenges || "Non spécifié"}</p>
+        <p><strong>DEFIS TECHNIQUES ET APPROCHES STRATEGIQUES:&nbsp;&nbsp;&nbsp;</strong> {project?.Défis || "Non spécifié"}</p>
+        <p><strong>DEPLOIEMENT ET TESTS:&nbsp;&nbsp;&nbsp;</strong> {project?.Déploiement || "Non spécifié"}</p>
+        <p><strong>LIEN:&nbsp;&nbsp;&nbsp;</strong> {project?.Lien || "Non spécifié"}</p>
         <a href={project.link} className="modal-link" target="_blank" rel="noopener noreferrer">
           Voir le lien
         </a>
