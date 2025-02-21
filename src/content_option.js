@@ -253,9 +253,9 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/ElToucanDePaitilla",
-    facebook: "https://facebook.com",
+    /*facebook: "https://facebook.com",*/
     linkedin: "https://www.linkedin.com/in/el-toucan-176ba8310",
-    twitter: "https://twitter.com",
+    /*twitter: "https://twitter.com",*/
 };
 export {
     meta,
