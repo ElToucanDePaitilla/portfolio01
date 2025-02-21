@@ -10,15 +10,12 @@ const meta = {
 
 
 const introdata = {
-    title: "Hello ! Je suis ravi de faire votre connaissance!",
+    title: "Salut, on m'appelle El Toucan",
     animated: {
         first: "J'adore coder",
-        second: "Je suis développeur web full stack",
-        third: "Je fais des sites web vraiment cool",
-        fourth: "... aussi bien Frontend que Backend",
-        fifth: "J'ai hâte que nous parlions de votre projet !",
-        seventh: "",
-
+        second: "Je fais des sites web vraiment cool",
+        third: "... aussi bien Frontend que Backend",
+        fourth: "J'ai hâte que nous parlions de votre projet !",
     },
     description: "Webmaster et Développeur Web Full Stack, alliant expertise technique, marketing et ventes pour accompagner efficacement les enjeux stratégiques de votre entreprise ou organisation.",
     your_img_url: require("./assets/images/MVGHomePageAccroche.webp"),

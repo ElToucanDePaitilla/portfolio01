@@ -21,12 +21,13 @@
     color: var(--text-color-2);
 }
 
+/*Titre logotext, icone nuit/jour, handleToggle*/
 .nav_ac {
     padding: 5px 15px;
     margin: 0;
     border: unset;
     background: var(--primary-color);
-    font-size: 1.25rem;
+    font-size: 1.50rem;
     font-family: Marcellus;
     color: var(--text-color-2);
     line-height: 2;

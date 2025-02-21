@@ -8,9 +8,10 @@ section {
 }
 
 
-/* Titre du Texte défilant */
+/* Titre fixe du Texte défilant */
 .intro_sec .text h2 {
     color: inherit;
+    font-size: 40px;
 }
 
 /* Texte défilant */
