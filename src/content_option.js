@@ -1,8 +1,8 @@
 const logotext = "Jean-Luc B.";
 const meta = {
-    title: "Développeur Web Fullstack | Portfolio de El Toucan",
+    title: "Développeur Web Fullstack | Portfolio de Jean-Luc B.",
     description: "Découvrez mon portfolio de développeur Web Fullstack spécialisé en MongoDB, Express, React et Node.js. Création d’interfaces web dynamiques et performantes.",
-    ogTitle: "Portfolio de El Toucan - Développeur Web Fullstack",
+    ogTitle: "Portfolio de Jean-Luc B. - Développeur Web Fullstack",
     ogDescription: "Je crée des applications web modernes et optimisées avec la stack MERN (MongoDB, Express, React, Node.js).",
     ogImage: "/og-image.webp",
     ogUrl: "https://eltoucandepaitilla.github.io/portfolio01/",
@@ -14,10 +14,13 @@ const introdata = {
     animated: {
         first: "J'adore coder",
         second: "Je suis développeur web full stack",
-        third: "Je fais des sites web vraiment cool",
-        fourth: "... aussi bien Frontend que Backend",
-        fifth: "J'ai hâte que nous parlions de votre projet !",
-        seventh: "",
+        third: "Je fais des sites web performants et optimisés",
+        fourth: "... Frontend et Backend !",
+        fifth: "Je crée et sécurise vos bases de données et leurs accès",
+        seventh: "J’optimise le SEO pour plus de visibilité",
+        eighth: "J'ai hâte d'échanger sur votre projet !",
+        ninth: "",
+        tenth: "",
 
     },
     description: "Webmaster et Développeur Web Full Stack, alliant expertise technique, marketing et ventes pour accompagner efficacement les enjeux stratégiques de votre entreprise ou organisation.",
