@@ -25,7 +25,7 @@ export const Home = () => {
 
           {/* Twitter Card - Pour Twitter */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Portfolio de El Toucan - Développeur Web Fullstack" />
+          <meta name="twitter:title" content="Portfolio de Jean-Luc B. - Développeur Web Fullstack" />
           <meta name="twitter:description" content="Développement web Fullstack, UI/UX et intégration MERN. Découvrez mon expertise et mes projets." />
           <meta name="twitter:image" content="URL_DE_MON_IMAGE" />
         </Helmet>

@@ -14,10 +14,10 @@ const introdata = {
     animated: {
         first: "J'adore coder",
         second: "Je suis développeur web full stack",
-        third: "Je fais des sites web performants et optimisés",
-        fourth: "... Frontend et Backend !",
-        fifth: "Je crée et sécurise vos bases de données et leurs accès",
-        seventh: "J’optimise le SEO pour plus de visibilité",
+        third: "Je fais des sites web performants et sécurisés",
+        fourth: "J’optimise le SEO pour booster votre visibilité !",
+        fifth: "Je conçois et sécurise vos bases de données",
+        seventh: "Front-end et back-end ... je gère tout !",
         eighth: "J'ai hâte d'échanger sur votre projet !",
         ninth: "",
         tenth: "",
@@ -257,7 +257,7 @@ const contactConfig = {
 const socialprofils = {
     github: "https://github.com/ElToucanDePaitilla",
     /*facebook: "https://facebook.com",*/
-    linkedin: "https://www.linkedin.com/in/el-toucan-176ba8310",
+    linkedin: "https://www.linkedin.com/in/jean-luc-176ba8310",
     /*twitter: "https://twitter.com",*/
 };
 export {
